@@ -6,9 +6,9 @@
 
 <br>
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![Flask](https://img.shields.io/badge/Flask-2.x-black?style=for-the-badge&logo=flask)
-![REST API](https://img.shields.io/badge/REST-API-green?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-2.x-000000?style=for-the-badge&logo=flask)
+![REST API](https://img.shields.io/badge/REST-API-2ea44f?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 ![Repository](https://img.shields.io/badge/Learning-Repository-orange?style=for-the-badge)
 
@@ -16,9 +16,57 @@
 
 ---
 
-# 📌 About This Repository
+# 📌 Table of Contents
 
-This repository documents my journey of learning **Flask and REST API development from a Data Engineering perspective**.
+<table>
+<tr>
+
+<td width="33%">
+
+### 🚀 Explore
+
+- About This Repository
+- Learning Outcomes
+- Architecture Overview
+- Topics Covered
+
+</td>
+
+<td width="33%">
+
+### 🧠 Learn
+
+- Request Flow
+- Technology Stack
+- Repository Structure
+- Roadmap
+
+</td>
+
+<td width="33%">
+
+### 💼 Prepare
+
+- Interview Preparation
+- Example Code
+- Project Architecture
+- Connect With Me
+
+</td>
+
+</tr>
+</table>
+
+---
+
+<table>
+<tr>
+
+<td width="60%">
+
+# 📖 About This Repository
+
+This repository documents my journey of learning Flask and REST API development from a Data Engineering perspective.
 
 Instead of only writing code, this repository focuses on:
 
@@ -29,312 +77,173 @@ Instead of only writing code, this repository focuses on:
 - Designing APIs used in data engineering systems
 - Preparing for Data Engineering interviews
 
+💡 **Well documented today, production ready tomorrow.**
+
+</td>
+
+<td width="40%">
+
+## ✨ Highlights
+
+✅ Concepts explained with visuals
+
+✅ Real-world Data Engineering use cases
+
+✅ Clean and modular code examples
+
+✅ Interview questions with answers
+
+✅ Project-ready structure
+
+</td>
+
+</tr>
+</table>
+
 ---
 
-# 🎯 Learning Outcomes
+<table>
+<tr>
 
-By completing this repository, I will be able to:
+<td width="50%">
 
-✅ Build REST APIs using Flask
+## 🛠️ Tech Stack
 
-✅ Handle JSON requests and responses
+🐍 Python
 
-✅ Design API endpoints using REST principles
+🌶️ Flask
 
-✅ Understand HTTP request-response lifecycle
+🔄 REST API
 
-✅ Use HTTP methods and status codes correctly
+📦 JSON
 
-✅ Build data ingestion APIs
+🗄️ MySQL
 
-✅ Connect APIs with databases
+🐼 Pandas (coming in project)
 
-✅ Build end-to-end Data Engineering projects
+🐳 Docker (coming in project)
+
+📊 Power BI (coming in project)
+
+</td>
+
+<td width="50%">
+
+## 🎯 Learning Outcome
+
+Build APIs
+
+↓
+
+Handle JSON
+
+↓
+
+Connect Database
+
+↓
+
+Build ETL APIs
+
+↓
+
+Create Dashboards
+
+↓
+
+Ship End-to-End Projects
+
+</td>
+
+</tr>
+</table>
 
 ---
 
-# 🏗️ System Architecture Overview
+# 🏛️ Architecture Overview
 
-```text
-Client Application
-       |
-       | HTTP Request
-       v
-+------------------+
-|    Flask API     |
-|------------------|
-| Routing          |
-| Validation       |
-| Business Logic   |
-| Response Handling|
-+------------------+
-       |
-       |
-       v
-+------------------+
-|    Database      |
-|------------------|
-| MySQL            |
-| PostgreSQL       |
-| Data Warehouse   |
-+------------------+
-       |
-       v
-Analytics / Dashboards
-```
+<p align="center">
+  <img src="./assets/architecture-overview.png" width="95%">
+</p>
 
 ---
 
 # 🔄 Request Lifecycle
 
-```text
-Client
-   |
-   | GET /employee/101
-   |
-   v
-
-Flask Server
-   |
-   | Route Matching
-   |
-   v
-
-Extract Parameters
-   |
-   v
-
-Execute Function
-   |
-   v
-
-Database / Business Logic
-   |
-   v
-
-Dictionary Response
-   |
-   v
-
-JSON Conversion
-   |
-   v
-
-HTTP Status Code
-   |
-   v
-
-Client
-```
+<p align="center">
+  <img src="./assets/request-flow.png" width="95%">
+</p>
 
 ---
 
-# 🧠 Key Concepts Covered
+# 📚 Topics Covered
 
-| Module | Topic | Status |
-|--------|--------|---------|
-| 01 | Why APIs Exist | ✅ |
-| 02 | API vs REST API vs Flask | ✅ |
-| 03 | Flask Application Object | ✅ |
-| 04 | Routing and Decorators | ✅ |
-| 05 | HTTP Methods | ✅ |
-| 06 | Request Object | ✅ |
-| 07 | Dynamic Routes | ✅ |
-| 08 | JSON Responses | ✅ |
-| 09 | HTTP Status Codes | ✅ |
-| 10 | Database Integration | ⏳ |
-| 11 | End-to-End Project | ⏳ |
+| Module | Topic | Description |
+|--------|--------|-------------|
+| 01 | Why APIs Exist | Understand the need for APIs in modern systems |
+| 02 | API vs REST vs Flask | Clear difference between API, REST API and Flask |
+| 03 | Flask Application Object | Understanding app = Flask(__name__) |
+| 04 | Routing & Decorators | How routes map URLs to functions |
+| 05 | HTTP Methods | GET, POST, PUT, DELETE |
+| 06 | Request Object | request.args, request.json, headers |
+| 07 | Dynamic Routes | Path parameters and converters |
+| 08 | JSON Responses | Returning JSON data |
+| 09 | HTTP Status Codes | 200, 201, 400, 404, 500 |
+| 🚀 | Project | Real-Time Event Analytics Platform |
 
 ---
 
-# 📚 Repository Structure
+# 🗺️ Roadmap
+
+<p align="center">
+  <img src="./assets/roadmap.png" width="95%">
+</p>
+
+---
+
+# 📂 Repository Structure
 
 ```text
 flask-for-data-engineering/
 
-│
 ├── README.md
-│
+├── assets/
 ├── docs/
-│   ├── 01_why_apis.md
-│   ├── 02_api_vs_rest_vs_flask.md
-│   ├── 03_flask_application_object.md
-│   ├── 04_routing_and_decorators.md
-│   ├── 05_http_methods.md
-│   ├── 06_request_object.md
-│   ├── 07_dynamic_routes.md
-│   ├── 08_json_responses.md
-│   └── 09_http_status_codes.md
-│
-├── diagrams/
-│
 ├── examples/
-│
 ├── interview_questions/
-│
 ├── notes/
-│
 └── project/
 ```
 
 ---
 
-# ⚙️ Technology Stack
+# 🚀 End Goal Project
 
-| Category | Technologies |
-|----------|--------------|
-| Language | Python |
-| Framework | Flask |
-| API Style | REST API |
-| Data Format | JSON |
-| Database | MySQL |
-| Future Integration | Pandas |
-| Visualization | Power BI |
-| Version Control | Git & GitHub |
+## Real-Time Event Analytics Platform
 
----
+<p align="center">
+  <img src="./assets/event-platform-architecture.png" width="95%">
+</p>
 
-# 🚀 Data Engineering Perspective
-
-```text
-Applications
-      |
-      v
-Flask API
-      |
-      +------ Database
-      |
-      +------ Kafka
-      |
-      +------ Airflow
-      |
-      +------ Data Warehouse
-      |
-      v
-Analytics & Dashboards
-```
-
-The goal of this repository is not merely to learn Flask syntax, but to understand how APIs are used inside real-world Data Engineering systems.
-
----
-
-# 🧩 Concepts Mastered So Far
-
-### Flask Application Object
-
-```python
-from flask import Flask
-
-app = Flask(__name__)
-```
-
----
-
-### Route Example
-
-```python
-@app.route("/salary")
-def salary():
-    return "50000"
-```
-
----
-
-### Dynamic Route
-
-```python
-@app.route("/employee/<int:id>")
-def employee(id):
-    return {
-        "id": id,
-        "name": "Rahul",
-        "salary": 50000
-    }
-```
-
----
-
-### JSON Response
-
-```python
-return {
-    "salary": 50000
-}
-```
-
----
-
-### Status Code
-
-```python
-return {
-    "message": "Employee Created"
-}, 201
-```
-
----
-
-# 📈 Roadmap
-
-```text
-✅ API Fundamentals
-✅ REST Principles
-✅ Flask Basics
-✅ Routing
-✅ Request Object
-✅ JSON Responses
-✅ Status Codes
-⬜ MySQL Integration
-⬜ Pandas Integration
-⬜ End-to-End Event Analytics Platform
-⬜ Dockerization
-⬜ Deployment
-```
-
----
-
-# 🎯 End Goal
-
-Build an intermediate-level project:
-
-### Real-Time Event Analytics Platform
-
-```text
-Application
-      |
-      v
-Flask REST API
-      |
-      v
-MySQL
-      |
-      v
-Data Aggregation
-      |
-      v
-Power BI Dashboard
-```
-
-Features:
+### Features
 
 - Event Ingestion APIs
 - Analytics APIs
-- Aggregated Metrics
 - Revenue Tracking
 - Active User Metrics
+- Aggregations
 - Dashboard Reporting
+- Power BI Integration
 
 ---
 
-# 📖 Why This Repository Exists
+# 🤝 Connect With Me
 
-I believe understanding systems deeply is more valuable than memorizing syntax.
+💼 LinkedIn: Add your profile
 
-This repository is my attempt to:
+📧 Email: Add your email
 
-**Learn → Document → Build → Explain → Ship**
-
-while developing skills required for modern Data Engineering roles.
+🐙 GitHub: github.com/anikettrivedii
 
 ---
 
@@ -342,6 +251,6 @@ while developing skills required for modern Data Engineering roles.
 
 ### ⭐ If you find this repository useful, feel free to star it.
 
-#### Built with curiosity and consistency 🚀
+#### Learn → Document → Build → Explain → Ship 🚀
 
 </div>
